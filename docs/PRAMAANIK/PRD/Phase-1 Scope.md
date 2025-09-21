@@ -1,58 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# PRD ( Product Requirement Document ) 
-# PRAMAANIK.ai
+## **Individuals (Students / Professionals) Persona**
 
-> **Tagline:** *AI‑enabled, evidence‑backed, 360° professional profiling and scoring — "CIBIL score for education" — aligning education with industry needs.*
-
----
-
-## Table of Contents
-1. [Overview](#overview)
-2. [Personas](#personas)
-3. [Phase 1 Scope — Individuals (Students/Professionals)](#phase-1-scope)
-   - [1) Onboarding / User Management](#onboarding)
-   - [2) Data & Verification](#data-verification)
-   - [3) Scoring & Progression](#scoring)
-   - [4) Career Guidance](#career-guidance)
-   - [5) Challenges](#challenges)
-   - [6) Social](#social)
-   - [7) Alerts & Notifications](#alerts)
-4. [Non‑Functional Requirements (NFRs)](#nfrs)
-5. [Technical Architecture (High‑Level)](#architecture)
-
----
-
-## <a id="overview"></a>Overview
-Pramaanik.ai is an **AI‑enabled 360° professional profiling and scoring platform**—the *“CIBIL score for education”*. It unifies **verified academic, skills, experiential, employability, entrepreneurial, and extracurricular evidence** into one **longitudinal, trusted score** to improve employability and talent discovery.
-
-**Key highlights**
-- Spans the learner journey from **Class X → professional life**
-- Applies **structured 6E criteria** with weighted components
-- **Multi‑stakeholder dashboards** for students, faculty, institutions, employers, and policymakers
-- **Agentic AI career coach**: personalized paths, next‑best actions, gamified progress
-- **Verification pipeline** (APAAR‑linked, automated checks, human‑in‑the‑loop)
-- **Outcome:** transparent, evidence‑backed profiles that reduce hiring risk
-
----
-
-## <a id="personas"></a>Personas
-- **Individuals**: Students / Professionals  
-- **Faculty**  
-- **Institutions**  
-- **Industry**: Recruiters & Employers  
-- **Policy Makers**  
-- **Admin**
-
-> **Phase 1 focuses on the Individuals (Students / Professionals) persona.**
-
----
-
-## <a id="phase-1-scope"></a>Phase 1 Scope — **Individuals (Students / Professionals)**
-
-### <a id="onboarding"></a>1) Onboarding / User Management
+### 1) Onboarding / User Management
 **Goal:** Easy, secure access with compliance‑ready consent and trust in data usage.
 
 **Features**
@@ -73,7 +25,7 @@ Pramaanik.ai is an **AI‑enabled 360° professional profiling and scoring platf
 
 ---
 
-### <a id="data-verification"></a>2) Data / Evidence Collection & Verification
+### 2) Data / Evidence Collection & Verification
 **Goal:** Back every learner journey with **authentic, verifiable evidence**.
 
 **Document Upload**
@@ -86,7 +38,7 @@ Pramaanik.ai is an **AI‑enabled 360° professional profiling and scoring platf
 
 ---
 
-### <a id="scoring"></a>3) Scoring & Progression
+### 3) Scoring & Progression
 
 #### 6E Framework
 - Composite **PRAMAANIK score** across: **Education, Experience, Employability, Entrepreneurship, Extracurricular, Evidence**
@@ -109,7 +61,7 @@ Pramaanik.ai is an **AI‑enabled 360° professional profiling and scoring platf
 
 ---
 
-### <a id="career-guidance"></a>4) Career Guidance
+### 4) Career Guidance
 
 #### Career Paths
 - **AI‑generated personalized paths** aligned to **industry demand & skills taxonomy**
@@ -128,7 +80,7 @@ Pramaanik.ai is an **AI‑enabled 360° professional profiling and scoring platf
 
 ---
 
-### <a id="challenges"></a>5) Challenges
+### 5) Challenges
 
 #### Team Challenges
 - Collaboration marathons; **team‑based problem solving**
@@ -155,7 +107,7 @@ Pramaanik.ai is an **AI‑enabled 360° professional profiling and scoring platf
 
 ---
 
-### <a id="social"></a>6) Social
+### 6) Social
 
 #### My Network (P2P)
 - Build **peer‑to‑peer connections** across institutions & industries
@@ -182,7 +134,7 @@ Pramaanik.ai is an **AI‑enabled 360° professional profiling and scoring platf
 
 ---
 
-### <a id="alerts"></a>7) Alerts & Notifications
+### 7) Alerts & Notifications
 
 #### Alerts
 - Milestones: **new badges, score updates, progression checkpoints**
@@ -196,52 +148,3 @@ Pramaanik.ai is an **AI‑enabled 360° professional profiling and scoring platf
 - **Event reminders**: webinars, competitions, club activities
 - **Institution‑level** updates: policies, new courses, assessments
 - **System**: onboarding steps, auth updates, retry actions
-
----
-
-## <a id="nfrs"></a>Non‑Functional Requirements (NFRs)
-
-| # | Category | Focus |
-|---:|---|---|
-| 1 | **Security & Compliance** | DPDP, APAAR, encryption, access control, audit trails |
-| 2 | **Reliability & Availability** | Uptime SLA, graceful degradation, redundancy |
-| 3 | **Business Continuity & DR** | RTO/RPO, tested backups/restores, multi‑region/zone failover, runbooks |
-| 4 | **Performance & Scalability** | Low latency, India‑scale traffic, exam‑season spikes |
-| 5 | **Data Management & Residency** | Quality, classification, storage within India, retention/deletion |
-| 6 | **AI/ML Governance** | Accuracy, fairness (Indian demographics), explainability, rollback |
-| 7 | **Architecture & Deployment** | Microservices, CI/CD, containers, infra‑as‑code |
-| 8 | **Interoperability & APIs** | Versioned, standards‑based, idempotent |
-| 9 | **Observability** | Monitoring, logging, alerting, auditability |
-|10 | **Maintainability & Extensibility** | Configurable, modular, documented |
-|11 | **Usability & Accessibility** | WCAG 2.1 AA, multilingual, intuitive UI |
-
----
-
-## <a id="architecture"></a>Technical Architecture (High Level)
-
-> **Note:** Diagrams are linked to the public repository images for quick reference.
-
-### 1) System Context Architecture
-![System Context](https://github.com/PratapBodimalla/pramaanik/blob/main/structurizr-Diagram1.png?raw=true)
-![Legend](https://github.com/PratapBodimalla/pramaanik/blob/main/structurizr-Diagram1-key.png?raw=true)
-
-### 2) Container Architecture
-![Container](https://github.com/PratapBodimalla/pramaanik/blob/main/structurizr-Diagram2.png?raw=true)
-![Legend](https://github.com/PratapBodimalla/pramaanik/blob/main/structurizr-Diagram2-key.png?raw=true)
-
-### 3) API Component Architecture
-![API Components](https://github.com/PratapBodimalla/pramaanik/blob/main/structurizr-Diagram3.png?raw=true)
-![Legend](https://github.com/PratapBodimalla/pramaanik/blob/main/structurizr-Diagram3-key.png?raw=true)
-
----
-
-### Quick Reference — 6E Dimensions
-- **Education**  
-- **Experience**  
-- **Employability**  
-- **Entrepreneurship**  
-- **Extracurricular**  
-- **Evidence**
-
-
-
