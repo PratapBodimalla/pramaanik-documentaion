@@ -39,3 +39,25 @@ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+
+for changes
+
+# 1) Create and switch to a new branch
+git switch -c feature/my-change[]
+# (older Git: git checkout -b feature/my-change)
+
+# 2) Make your edits in the files...
+#    then check what changed (optional):
+git status
+git diff
+
+# 3) Stage everything you changed
+git add .
+
+# 4) Create a commit
+git commit -m "Describe the change briefly (imperative mood)"
+
+# 5) Push THIS branch to origin (using your current HEAD)
+git push -u origin HEAD
+# (next pushes can just be: git push)
